@@ -4,13 +4,22 @@
   <title>Sclog</title>
 
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
-  
+
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class="container">
+    <div class="navbar">
+  <a class="navbar-brand" href="#">SCLOG</a>
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Your Sclog</a></li>
+    <li><a href="#">Sclog Inspiration</a></li>
+    <li><a href="#">Sclog Blog</a></li>
+  </ul>
+</div>
 <%= yield %>
 
 </body>
