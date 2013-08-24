@@ -1,6 +1,13 @@
-
 h1 {color: #FF8C00;}
 
 .navbar {
     background-color: #FF8C00;
+}
+
+.active {
+    background-color: #F4A460;
+}
+
+.navbar #nav > .active > a {
+    color: red;
 }
