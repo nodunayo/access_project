@@ -20,12 +20,13 @@ body {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     line-height: 46px;
-    font-size: 200px;
+    font-size: 180px;
     margin: 0 0 23px 0;
     color: #FEFFF8;
     }
 
     h2 {
+    font-size: 38px;
     font-family: 'Amatic SC', cursive;
     color: #FEFFF8;}
 
@@ -40,7 +41,7 @@ body {
 
    .qmark {
         font-family:'Josefin Sans', sans-serif;
-        font-size: 30px;
+        font-size: 34px;
     }
 
     .navfont {
@@ -67,5 +68,16 @@ body {
 .selected {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    opacity:.5;;
+    opacity:.5;
+}
+
+.headline {
+    border: 6px solid #8A0651;
+    border-radius: 15px;
+    width:97%;
+    height: 100%;
+    padding:60px;
+    margin:auto;
+    ;
+
 }
