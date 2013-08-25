@@ -8,33 +8,25 @@
   </ul>
 </div>
 
+<div class="container">
 
-<table>
-  <thead>
-    <tr>
-      <th>Activity name</th>
-      <th>Date</th>
-      <th>Description</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @blogs.each do |blog| %>
-      <tr>
-        <td><%= blog.activity_name %></td>
-        <td><%= blog.date %></td>
-        <td><%= blog.description %></td>
-        <td><%= link_to 'Show', blog %></td>
-        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
-        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
+<ul class="media-list">
+  <% @blogs.each do |blog| %>
+  <li class="media">
+    <a class="pull-left" href="#">
+      <%= image_tag "favicon.jpg" %>
+    </a>
+    <div class="media-body">
+     <h4 class="media-heading"><%= link_to blog.activity_name, blog %></h4>
+      <%= blog.description %>
+    </div>
+  </li>
+  <% end %>
+</ul>
 
-<%= link_to 'New Blog', new_blog_path %>
+
+<%= link_to 'New Sclog Post', new_blog_path %>
+
+</div>

@@ -28,7 +28,8 @@ body {
     h2 {
     font-size: 38px;
     font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;}
+    color: #FEFFF8;
+}
 
     p {
     font-family: 'Josefin Sans', sans-serif;
@@ -80,5 +81,22 @@ body {
     padding:60px;
     margin:auto;
     ;
+
+}
+
+
+.media-body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    color: #29241E;
+}
+
+.media-heading a {
+    font-size: 38px;
+    font-family: 'Amatic SC', cursive;
+    color: #FEFFF8;
 
 }

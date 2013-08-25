@@ -16,4 +16,5 @@
 </p>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Destroy', @blog, method: :delete, data: { confirm: 'Are you sure?' } %>|
 <%= link_to 'Back', blogs_path %>
