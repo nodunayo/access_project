@@ -19,10 +19,11 @@ body {
     h1 {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    line-height: 46px;
+    line-height: 160px;
     font-size: 180px;
     margin: 0 0 23px 0;
     color: #FEFFF8;
+    text-align: center;
     }
 
     h2 {
