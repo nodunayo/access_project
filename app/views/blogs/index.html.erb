@@ -1,0 +1,41 @@
+
+ <div class="navbar">
+  <a class="navbar-brand navfont" href="#">SCLOG</a>
+  <ul class="nav navbar-nav">
+    <li class="navfont"><a href="/">Home</a></li>
+    <li class="navfont"><a href="/start">Your Sclog</a></li>
+    <li class="navfont"><a href="/ideas">Sclog Inspiration</a></li>
+    <li class="navfont selected"><a href="/blogs">Sclog Blog</a></li>
+  </ul>
+</div>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Activity name</th>
+      <th>Date</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @blogs.each do |blog| %>
+      <tr>
+        <td><%= blog.activity_name %></td>
+        <td><%= blog.date %></td>
+        <td><%= blog.description %></td>
+        <td><%= link_to 'Show', blog %></td>
+        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
+        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Blog', new_blog_path %>
