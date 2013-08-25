@@ -5,7 +5,8 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    @blogs = Blog.order(:date).reverse
+
+    @blogs = Blog.where(:user_id => current_user.id).order(:date).reverse
   end
 
   # GET /blogs/1
@@ -26,7 +27,7 @@ class BlogsController < ApplicationController
   # POST /blogs.json
   def create
     @blog = Blog.new(blog_params)
-
+    @blog.user_id = current_user.id
     respond_to do |format|
       if @blog.save
         format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
@@ -65,7 +66,7 @@ class BlogsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_blog
-      @blog = Blog.find(params[:id])
+      @blog = Blog.where(:user_id => current_user.id).find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
