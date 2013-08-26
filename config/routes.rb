@@ -9,6 +9,8 @@ AccessProject::Application.routes.draw do
   get "/start" => 'pages#start'
 
   get "/blog" => 'pages#blog'
+
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

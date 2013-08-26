@@ -58,6 +58,7 @@ body {
 
     .important {
         color: #8A0651;
+
     }
 
     .navbar {
@@ -68,7 +69,11 @@ body {
     color: #FEFFF8;
  }
 
-.selected {
+#home a#nav-home,
+#ideas a#nav-ideas,
+#start a#nav-start,
+#blog a#nav-blog
+ {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     opacity:.5;
@@ -101,3 +106,9 @@ body {
     color: #FEFFF8;
 
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
