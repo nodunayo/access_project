@@ -1,13 +1,11 @@
 <body id="blog">
 
-<div class="container">
-
-
+<div class="headline">
 
 <ul class="media-list">
   <% @blogs.each do |blog| %>
   <li class="media">
-    <a class="pull-left" href="#">
+    <a href="#">
       <%= image_tag "favicon.jpg" %>
     </a>
     <div class="media-body">
@@ -17,8 +15,9 @@
   </li>
   <% end %>
 </ul>
-
-</body>
-<%= link_to 'New Sclog Post', new_blog_path %>
-
+<h3 class = "pull-right"><%= link_to 'New Sclog Post', new_blog_path %></h3>
 </div>
+</body>
+
+
+

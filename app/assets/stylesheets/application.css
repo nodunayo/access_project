@@ -32,6 +32,12 @@ body {
     color: #FEFFF8;
 }
 
+    h3 {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: #FEFFF8;
+}
+
     p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
@@ -57,8 +63,12 @@ body {
 
 
     .important {
-        color: #8A0651;
+        color:#8A0651;
 
+    }
+
+    .frontpage {
+        color:  #D05A00;
     }
 
     .navbar {
@@ -84,7 +94,7 @@ body {
     border-radius: 15px;
     width:97%;
     height: 100%;
-    padding:60px;
+    padding:20px;
     margin:auto;
     ;
 
@@ -110,5 +120,11 @@ body {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+    color: white;
+}
+
+.pull-left {
+    position: absolute;
+
 }
 

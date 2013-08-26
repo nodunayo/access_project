@@ -20,8 +20,7 @@
     <li class="navfont"><a href="/ideas" id="nav-ideas">Sclog Inspiration</a></li>
     <li class="navfont"><a href="/blogs" id="nav-blog">Sclog Blog</a></li>
   </ul>
-</div>
-<div id="user_nav">
+  <div id="user_nav" class="pull-right">
   <% if user_signed_in? %>
     Signed in as <%= current_user.email %>. Not you?
     <%= link_to "Sign out", destroy_user_session_path, :method => 'delete' %>
@@ -30,10 +29,12 @@
     <%= link_to "Sign in", new_user_session_path %>
   <% end %>
 </div>
+</div>
+
 
 <p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+<div class="container">
 <%= yield %>
-
+</div>
 </body>
 </html>
