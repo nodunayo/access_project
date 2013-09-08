@@ -1,21 +1,18 @@
 <body id="start">
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Activity name:</strong>
-  <%= @blog.activity_name %>
-</p>
+
+ <h2> <%= @blog.activity_name %></h2>
+
 
 <p>
-  <strong>Date:</strong>
   <%= @blog.date %>
 </p>
 
 <p>
-  <strong>Description:</strong>
   <%= @blog.description %>
 </p>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
-<%= link_to 'Destroy', @blog, method: :delete, data: { confirm: 'Are you sure?' } %>|
+<%= link_to 'Delete', @blog, method: :delete, data: { confirm: 'Are you sure?' } %>|
 <%= link_to 'Back', blogs_path %>

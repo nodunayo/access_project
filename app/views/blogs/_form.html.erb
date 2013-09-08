@@ -6,25 +6,28 @@
 
       <ul>
       <% @blog.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+        <p><li><%= msg %></li></p>
       <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="field">
-    <%= f.label :activity_name %><br>
+    <p><%= f.label :activity_name %></p>
     <%= f.text_field :activity_name %>
   </div>
+    <br>
   <div class="field">
-    <%= f.label :date %><br>
+    <p><%= f.label :date %></p>
     <%= f.date_select :date %>
   </div>
+    <br>
   <div class="field">
-    <%= f.label :description %><br>
+    <p><%= f.label :description %></p>
     <%= f.text_area :description %>
   </div>
+    <br>
   <div class="actions">
-    <%= f.submit %>
+    <p><%= f.submit %></p>
   </div>
 <% end %>
