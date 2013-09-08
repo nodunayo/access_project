@@ -73,4 +73,5 @@ class BlogsController < ApplicationController
     def blog_params
       params.require(:blog).permit(:activity_name, :date, :description)
     end
+
 end

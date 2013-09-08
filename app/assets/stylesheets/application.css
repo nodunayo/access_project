@@ -38,6 +38,18 @@ body {
     color: #FEFFF8;
 }
 
+    h4 {
+    font-size: 26px;
+    font-family: 'Amatic SC', cursive;
+    color: #FEFFF8;
+}
+
+    h5 {
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    color: #FEFFF8;
+}
+
     p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
@@ -125,6 +137,14 @@ a:hover, a:visited, a:link, a:active
 
 .pull-left {
     position: absolute;
-
 }
+
+
+
+.form {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 

@@ -1,5 +1,5 @@
 AccessProject::Application.routes.draw do
-  devise_for :users
+  devise_for :users  
   resources :blogs
 
   get "/" => 'pages#home'
@@ -9,6 +9,7 @@ AccessProject::Application.routes.draw do
   get "/start" => 'pages#start'
 
   get "/blog" => 'pages#blog'
+
 
 
   
