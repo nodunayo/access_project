@@ -4,11 +4,7 @@
     <div id="error_explanation">
       <h2><%= pluralize(@blog.errors.count, "error") %> prohibited this blog from being saved:</h2>
 
-      <ul>
-      <% @blog.errors.full_messages.each do |msg| %>
-        <p><li><%= msg %></li></p>
-      <% end %>
-      </ul>
+   
     </div>
   <% end %>
 
@@ -24,7 +20,7 @@
     <br>
   <div class="field">
     <p><%= f.label :description %></p>
-    <%= f.text_area :description %>
+    <%= f.text_area :description, :rows=>"10", :cols=>"80" %>
   </div>
     <br>
   <div class="actions">
