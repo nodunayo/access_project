@@ -47,5 +47,6 @@
 
 <%= yield %>
 </div>
+<%= render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ %>
 </body>
 </html>
