@@ -1,0 +1,6 @@
+---
+applications:
+    - name: sclogs
+      memory: 128mb
+      services:
+         - rails-postgres
