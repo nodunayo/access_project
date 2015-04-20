@@ -26,6 +26,3 @@ To see an example sclog, use the following account details:
 | sclog@example.com  | sclogtest             |
 
 
-###To do 
-
-* Tidy up code to match Ruby conventions

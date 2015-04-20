@@ -12,139 +12,139 @@
  *= require_tree .
  */
 body {
-    background-color: #D05A00;
+  background-color: #D05A00;
 }
 
 
-    h1 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    line-height: 160px;
-    font-size: 180px;
-    margin: 0 0 23px 0;
-    color: #FEFFF8;
-    text-align: center;
-    }
-
-    h2 {
-    font-size: 38px;
-    font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  line-height: 160px;
+  font-size: 180px;
+  margin: 0 0 23px 0;
+  color: #FEFFF8;
+  text-align: center;
 }
 
-    h3 {
-    font-size: 30px;
-    font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;
+h2 {
+  font-size: 38px;
+  font-family: 'Amatic SC', cursive;
+  color: #FEFFF8;
 }
 
-    h4 {
-    font-size: 26px;
-    font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;
+h3 {
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: #FEFFF8;
 }
 
-    h5 {
-    font-size: 24px;
-    font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;
+h4 {
+  font-size: 26px;
+  font-family: 'Amatic SC', cursive;
+  color: #FEFFF8;
 }
 
-    p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    color: #29241E
-    }
+h5 {
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
+  color: #FEFFF8;
+}
 
-   .qmark {
-        font-family:'Josefin Sans', sans-serif;
-        font-size: 34px;
-    }
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  color: #29241E
+}
 
-    .navfont {
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 23px;
-    margin: 0 0 0 0;
-    color: #FEFFF8;
-    }
+.qmark {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 34px;
+}
+
+.navfont {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 0 0;
+  color: #FEFFF8;
+}
 
 
-    .important {
-        color:#8A0651;
+.important {
+  color:#8A0651;
 
-    }
+}
 
-    .frontpage {
-        color:  #D05A00;
-    }
+.frontpage {
+  color:  #D05A00;
+}
 
-    .navbar {
-        background-color: #8A0651;
-    }
+.navbar {
+  background-color: #8A0651;
+}
 
- ul.nav li a {
-    color: #FEFFF8;
- }
+ul.nav li a {
+  color: #FEFFF8;
+}
 
 #home a#nav-home,
 #ideas a#nav-ideas,
 #start a#nav-start,
 #blog a#nav-blog
- {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    opacity:.5;
+{
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity:.5;
 }
 
 .headline {
-    border: 6px solid #8A0651;
-    border-radius: 15px;
-    width:97%;
-    height: 100%;
-    padding:20px;
-    margin:auto;
-    ;
+  border: 6px solid #8A0651;
+  border-radius: 15px;
+  width:97%;
+  height: 100%;
+  padding:20px;
+  margin:auto;
+  ;
 
 }
 
 
 .media-body {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    color: #29241E;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  color: #29241E;
 }
 
 .media-heading a {
-    font-size: 38px;
-    font-family: 'Amatic SC', cursive;
-    color: #FEFFF8;
+  font-size: 38px;
+  font-family: 'Amatic SC', cursive;
+  color: #FEFFF8;
 
 }
 
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .pull-left {
-    position: absolute;
+  position: absolute;
 }
 
 
 
 .form {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 

@@ -1,7 +1,7 @@
 ---
 applications:
   - name: sclogs
-    memory: 256mb
-    command: bundle exec rake db:migrate && bundle exec rails server -p $PORT
-    services:
-      - rails-postgres
+  memory: 256mb
+  command: bundle exec rake db:migrate && bundle exec rails server -p $PORT
+  services:
+    - rails-postgres
