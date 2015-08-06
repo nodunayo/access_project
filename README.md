@@ -14,15 +14,3 @@ By keeping track of their super-curricular activities, students can refer back t
 The project is based in Rails. I began by setting up a static page framework in Rails, before incorporating a blog controller. Hence, the first thing I had to learn was how to work with the two different frameworks and how to integrate them.
 
 After putting up some initial content, I then set up a user login system using Devise. The most difficult part was working out how to make Sclog posts private, such that users could only see their posts when they logged in and not everybody else's. I also had to discover how to put in some security measures to prevent users from discovering Sclog posts that they hadn't authored.
-
-###The website
-
-Please visit the Sclog site [here](http://www.sclogs.co.uk)
-
-To see an example sclog, use the following account details:
-
-| email              | password              |
-| -----------------  |:---------------------:|
-| sclog@example.com  | sclogtest             |
-
-
